@@ -14,7 +14,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             Mulai dari blog hingga website bisnis dan perusahaan
         </div>
         <div class="flex justify-center mt-12">
-            <div class="h-81 w-60 mr-12 text-black font-bold gradient text-white rounded-lg shadow-3xl cursor-pointer transform transition hover:scale-110 duration-300 ease-in-out">
+            <div class="h-81 w-60 mr-12 text-black font-bold gradient text-white rounded-lg shadow-3xl cursor-pointer transform transition hover:scale-110 duration-300 ease-in-out animate__animated animate__fadeIn">
                 <div class="flex justify-center mt-4 text-xl">
                     Perusahaan
                 </div>
@@ -39,7 +39,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-            <div class="h-81 w-60 mr-12 text-black font-bold gradient text-white rounded-lg shadow-3xl cursor-pointer transform transition hover:scale-110 duration-300 ease-in-out">
+            <div class="h-81 w-60 mr-12 text-black font-bold gradient text-white rounded-lg shadow-3xl cursor-pointer transform transition hover:scale-110 duration-300 ease-in-out animate__animated animate__fadeIn">
                 <div class="flex justify-center mt-4 text-xl">
                     UMKM & Toko Online
                 </div>

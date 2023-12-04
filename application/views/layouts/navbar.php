@@ -34,7 +34,10 @@
                     <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Internet Access</a>
                 </li>
                 <li class="mr-3">
-                    <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Promo</a>
+                    <div class="flex">
+                        <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Promo</a>
+                        <img src="<?= base_url() . 'assets/img/discount-coupon.png' ?>" alt="" class="block absolute h-12 w-auto ml-12" id="disc">
+                    </div>
                 </li>
             </ul>
         </div>

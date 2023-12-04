@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
-<section class="grid grid-cols-1 md:grid-cols-2 h-full pb-18 pl-14">
+<section class="grid grid-cols-1 md:grid-cols-2 h-full pb-18 pl-14" id="home">
     <!-- <div class="h-screen"> -->
     <div class="relative w-screen h-full content-center flex justify-center pt-24 md:w-full md:pl-20">
         <div class=" text-center md:text-left">
@@ -20,10 +20,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <span class="font-bold hover:underline">Tersertifikasi ISO 27001 dengan Data Center Tier 3.</span>
             </div>
             <div class="font-medium text-nr mt-8 z-30">
-                <button type="button" class="bg-orange-500 hover:bg-blue-500 rounded-full py-2 w-52 cursor-pointer" onclick="tes()">
+                <button type="button" class="bg-orange-500 hover:text-black hover:scale-105 transform transition duration-300 rounded-full py-2 w-52" onclick="tes()">
                     Paket Hosting
                 </button>
-                <button type="button" class="bg-orange-500 rounded-full py-2 w-52 cursor-pointer">
+                <button type="button" class="ml-4 bg-orange-500 rounded-full py-2 w-52 hover:text-black hover:scale-105 transform transition duration-300">
                     Cari Domain
                 </button>
             </div>
@@ -44,6 +44,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
 
         </div>
+    </div>
+    <div class="flex ml-20 mt-7 space-x-2">
+        <img src="<?= base_url() . 'assets/img/BSI.webp' ?>" alt="" class="h-14 w-auto">
+        <img src="<?= base_url() . 'assets/img/code.webp' ?>" alt="" class="h-14 w-auto">
+        <img src="<?= base_url() . 'assets/img/icann-logo.webp' ?>" alt="" class="h-14 w-auto">
+        <img src="<?= base_url() . 'assets/img/badge_litespeed.webp' ?>" alt="" class="h-14 w-auto">
+        <img src="<?= base_url() . 'assets/img/badge_whmadmin.webp' ?>" alt="" class="h-14 w-auto">
+        <img src="<?= base_url() . 'assets/img/acronis-cloud-tech.webp' ?>" alt="" class="h-14 w-auto">
+        <img src="<?= base_url() . 'assets/img/acronis-cloud-sales.webp' ?>" alt="" class="h-14 w-auto">
     </div>
 
 </section>
