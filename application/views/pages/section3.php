@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
-<section class="h-auto pt-12">
+<section class="h-auto pt-12" id="pkgHosting">
     <div class="w-full">
         <div class="flex justify-center text-5xl font-bold mb-4">
             SOLUSI PAKET HOSTING TERBAIK

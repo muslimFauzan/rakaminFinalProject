@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
-<section class="bg-white h-80vh pt-20 pb-20">
+<section class="bg-white h-80vh pt-20 pb-20" id="cariDomain">
     <div class="w-full">
         <div class="text-orange-500 flex justify-center text-6xl text-bold">
             Cari Nama Domainmu

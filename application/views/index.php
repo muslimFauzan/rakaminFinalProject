@@ -12,6 +12,7 @@ $this->load->view('pages/section8');
 $this->load->view('pages/section9');
 $this->load->view('pages/section10');
 $this->load->view('pages/section11');
+$this->load->view('pages/section12');
 
 ?>
 

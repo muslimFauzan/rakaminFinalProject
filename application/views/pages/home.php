@@ -20,39 +20,216 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <span class="font-bold hover:underline">Tersertifikasi ISO 27001 dengan Data Center Tier 3.</span>
             </div>
             <div class="font-medium text-nr mt-8 z-30">
-                <button type="button" class="bg-orange-500 hover:text-black hover:scale-105 transform transition duration-300 rounded-full py-2 w-52" onclick="tes()">
+                <a href="#pkgHosting" type="button" class="bg-orange-500 hover:text-black hover:scale-105 transform transition duration-300 rounded-full py-2 w-52 text-center">
                     Paket Hosting
-                </button>
-                <button type="button" class="ml-4 bg-orange-500 rounded-full py-2 w-52 hover:text-black hover:scale-105 transform transition duration-300">
+                </a>
+                <a href="#cariDomain" type="button" class="ml-4 bg-orange-500 rounded-full py-2 w-52 hover:text-black hover:scale-105 transform transition duration-300 text-center">
                     Cari Domain
-                </button>
+                </a>
             </div>
         </div>
         <!-- </div> -->
     </div>
-    <div class="w-1/2 h-96 mx-auto mt-20 border-2 border-red">
-        <div id="default-carousel" class="relative" data-carousel="static">
+    <div id="sliderHosting" class="mt-14 mx-auto">
+        <div id="slide-track" class="flex pl-7">
+            <div id="slide mx-11">
+                <div class="w-60 h-auto bg-white border rounded-lg font-bold py-3 px-2 shadow-md text-center mr-4">
+                    <div class="text-2xl font-semibold text-orange-500">Value Cloud Hosting</div>
+                    <div class="text-black text-3xl">VCH1</div>
+                    <div class="text-gray-500 line-through">Rp. 24.500</div>
+                    <div class="text-orange-500 text-3xl">Rp 24.500</div>
+                    <div class="text-black text-2xl">
+                        <span class="font-normal">Disk</span>
+                        <br>
+                        <span>3 GB</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Bandwith</span>
+                        <br>
+                        <span>Unlimited</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Core CPU</span>
+                        <br>
+                        <span>0.5 Core</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Addon/parked domain</span>
+                        <br>
+                        <span>None</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class=" bg-orange-500 rounded-full py-2 px-4 hover:text-black hover:scale-105 transform transition duration-300">
+                            Pesan Sekarang
+                        </button>
+                    </div>
+                </div>
 
-            <div class="overflow-hidden relative h-1/2 rounded-lg">
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2">
-                        prime slide
-                    </span>
-                    <div class="bg-blue-500 block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+            </div>
+            <div class="slide mx-11">
+                <div class="w-60 h-auto bg-white border rounded-lg font-bold py-3 px-2 shadow-md text-center mr-4">
+                    <div class="text-2xl font-semibold text-orange-500">Value Cloud Hosting</div>
+                    <div class="text-black text-3xl">VCH1</div>
+                    <div class="text-gray-500 line-through">Rp. 24.500</div>
+                    <div class="text-orange-500 text-3xl">Rp 24.500</div>
+                    <div class="text-black text-2xl">
+                        <span class="font-normal">Disk</span>
+                        <br>
+                        <span>3 GB</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Bandwith</span>
+                        <br>
+                        <span>Unlimited</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Core CPU</span>
+                        <br>
+                        <span>0.5 Core</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Addon/parked domain</span>
+                        <br>
+                        <span>None</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class=" bg-orange-500 rounded-full py-2 px-4 hover:text-black hover:scale-105 transform transition duration-300">
+                            Pesan Sekarang
+                        </button>
                     </div>
                 </div>
             </div>
-
+            <div class="slide mx-11">
+                <div class="w-60 h-auto bg-white border rounded-lg font-bold py-3 px-2 shadow-md text-center mr-4">
+                    <div class="text-2xl font-semibold text-orange-500">Value Cloud Hosting</div>
+                    <div class="text-black text-3xl">VCH1</div>
+                    <div class="text-gray-500 line-through">Rp. 24.500</div>
+                    <div class="text-orange-500 text-3xl">Rp 24.500</div>
+                    <div class="text-black text-2xl">
+                        <span class="font-normal">Disk</span>
+                        <br>
+                        <span>3 GB</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Bandwith</span>
+                        <br>
+                        <span>Unlimited</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Core CPU</span>
+                        <br>
+                        <span>0.5 Core</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Addon/parked domain</span>
+                        <br>
+                        <span>None</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class=" bg-orange-500 rounded-full py-2 px-4 hover:text-black hover:scale-105 transform transition duration-300">
+                            Pesan Sekarang
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide mx-11">
+                <div class="w-60 h-auto bg-white border rounded-lg font-bold py-3 px-2 shadow-md text-center mr-4">
+                    <div class="text-2xl font-semibold text-orange-500">Value Cloud Hosting</div>
+                    <div class="text-black text-3xl">VCH1</div>
+                    <div class="text-gray-500 line-through">Rp. 24.500</div>
+                    <div class="text-orange-500 text-3xl">Rp 24.500</div>
+                    <div class="text-black text-2xl">
+                        <span class="font-normal">Disk</span>
+                        <br>
+                        <span>3 GB</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Bandwith</span>
+                        <br>
+                        <span>Unlimited</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Core CPU</span>
+                        <br>
+                        <span>0.5 Core</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="text-black  text-2xl">
+                        <span class="font-normal">Addon/parked domain</span>
+                        <br>
+                        <span>None</span>
+                    </div>
+                    <div class="flex justify-center my-2" id="hr-2">
+                        <hr class="relative w-10/12 border-b border-orange-100 my-0 py-0" />
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="button" class=" bg-orange-500 rounded-full py-2 px-4 hover:text-black hover:scale-105 transform transition duration-300">
+                            Pesan Sekarang
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- <button id="prevBtn" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-full cursor-pointer" onclick="prevSlide()">‹</button>
+            <button id="nextBtn" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-full" onclick="nextSlide()">›</button> -->
         </div>
     </div>
-    <div class="flex ml-20 mt-7 space-x-2">
-        <img src="<?= base_url() . 'assets/img/BSI.webp' ?>" alt="" class="h-14 w-auto">
-        <img src="<?= base_url() . 'assets/img/code.webp' ?>" alt="" class="h-14 w-auto">
-        <img src="<?= base_url() . 'assets/img/icann-logo.webp' ?>" alt="" class="h-14 w-auto">
-        <img src="<?= base_url() . 'assets/img/badge_litespeed.webp' ?>" alt="" class="h-14 w-auto">
-        <img src="<?= base_url() . 'assets/img/badge_whmadmin.webp' ?>" alt="" class="h-14 w-auto">
-        <img src="<?= base_url() . 'assets/img/acronis-cloud-tech.webp' ?>" alt="" class="h-14 w-auto">
-        <img src="<?= base_url() . 'assets/img/acronis-cloud-sales.webp' ?>" alt="" class="h-14 w-auto">
+    <div>
+        <div class="pl-20">
+            Terdaftar di PSE, ICANN dan Partner Lainnya
+        </div>
+        <div class="flex ml-20 mt-7 space-x-2">
+            <img src="<?= base_url() . 'assets/img/BSI.webp' ?>" alt="" class="h-14 w-auto">
+            <img src="<?= base_url() . 'assets/img/code.webp' ?>" alt="" class="h-14 w-auto">
+            <img src="<?= base_url() . 'assets/img/icann-logo.webp' ?>" alt="" class="h-14 w-auto">
+            <img src="<?= base_url() . 'assets/img/badge_litespeed.webp' ?>" alt="" class="h-14 w-auto">
+            <img src="<?= base_url() . 'assets/img/badge_whmadmin.webp' ?>" alt="" class="h-14 w-auto">
+            <img src="<?= base_url() . 'assets/img/acronis-cloud-tech.webp' ?>" alt="" class="h-14 w-auto">
+            <img src="<?= base_url() . 'assets/img/acronis-cloud-sales.webp' ?>" alt="" class="h-14 w-auto">
+        </div>
     </div>
 
 </section>
@@ -71,7 +248,46 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </svg>
 </div>
 <script>
-    function tes() {
-        console.log('tes');
+    // Ambil elemen-elemen yang dibutuhkan
+    var slideTrack = document.getElementById('slide-track');
+    var prevBtn = document.getElementById('prevBtn');
+    var nextBtn = document.getElementById('nextBtn');
+
+    // Inisialisasi index slide
+    var currentSlide = 0;
+
+    // Fungsi untuk pindah ke slide sebelumnya
+    function prevSlide() {
+        if (currentSlide > 0) {
+            currentSlide--;
+        } else {
+            currentSlide = slideTrack.children.length - 1;
+        }
+        updateSlidePosition();
     }
+
+    // Fungsi untuk pindah ke slide berikutnya
+    function nextSlide() {
+        if (currentSlide < slideTrack.children.length - 1) {
+            currentSlide++;
+        } else {
+            currentSlide = 0;
+        }
+        updateSlidePosition();
+    }
+
+    // Fungsi untuk memperbarui posisi slide
+    function updateSlidePosition() {
+        var newTranslateValue = -currentSlide * 100 + '%';
+        slideTrack.style.transform = 'translateX(' + newTranslateValue + ')';
+    }
+
+    // Tambahkan event listener untuk pause/resume animasi ketika slider dihover
+    slideTrack.addEventListener('mouseover', function() {
+        slideTrack.style.animationPlayState = 'paused';
+    });
+
+    slideTrack.addEventListener('mouseout', function() {
+        slideTrack.style.animationPlayState = 'running';
+    });
 </script>
